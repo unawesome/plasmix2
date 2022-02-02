@@ -1,0 +1,103 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3dEg7xfAjmgsBb2hvi1i5P",
+      "projectApiToken": "vvUzZ2s4TiNWsUhy8GKRlWHJuRIc8fG1AgmTGnKvV2dJG2THV6WH2DPPZdJzdXd52XRcNmOZ54JXKIoGi4A",
+      "projectName": "Signup Modal",
+      "version": "latest",
+      "cssFilePath": "plasmic/signup_modal/plasmic_signup_modal.module.css",
+      "components": [
+        {
+          "id": "cteLUFm9gHi",
+          "name": "Modal",
+          "type": "managed",
+          "projectId": "3dEg7xfAjmgsBb2hvi1i5P",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicModal.tsx",
+          "importSpec": {
+            "modulePath": "Modal.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicModal.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "XAbgokGUlaJ",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "3dEg7xfAjmgsBb2hvi1i5P",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ylFN5775Wbu",
+          "name": "ExamplePage",
+          "type": "managed",
+          "projectId": "3dEg7xfAjmgsBb2hvi1i5P",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicExamplePage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicExamplePage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "sonw7WJNPns",
+          "name": "demoImage",
+          "filePath": "../public/plasmic/signup_modal/images/demoImage.jpeg"
+        },
+        {
+          "id": "WJbiBo_J5e3",
+          "name": "image",
+          "filePath": "../public/plasmic/signup_modal/images/image.png"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "UyPCIPV1Hb5",
+        "name": "Screen",
+        "projectId": "3dEg7xfAjmgsBb2hvi1i5P",
+        "contextFilePath": "plasmic/signup_modal/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
+}
